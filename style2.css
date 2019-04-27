@@ -31,7 +31,8 @@ body {
 	width:749px;
 	height:746px;
 	margin:auto;
-	border-radius:20px;
+	border-radius:20px;s
+	overflow:hidden;
 }
 
 #map-container img {
@@ -51,5 +52,18 @@ button{
 #top{
 	text-align:center;
 
+}
+
+
+
+#marker{
+	width:20px;
+	height:20px;
+	background:blue;
+	border-radius:20px;
+	position:absolute;
+	margin-top:178px;
+	margin-left:348px;
+	top:0;
 }
 
