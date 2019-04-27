@@ -20,18 +20,31 @@
 
 
 #map-container{
-	background-image: url("img/grid1.jpg");
-	background-size:700px;
+	background-image: url("img/set2/grid2.png");
+	background-size:749px;
 	background-repeat:no-repeat;
-	width:700px;
-	height:590px;
-	padding-top:53px;
-	padding-left:65px;
+	width:749px;
+	height:746px;
+	margin:auto;
+	border-radius:20px;
 }
 
 #map-container img {
-	width:137px;
-	height:110.5px;
+	width:184px;
 }
 
+button{
+	height:100px;
+	width:300px;
+	font-size:30px;
+	font-family: Arial Rounded MT Bold;
+	color:white;
+	border-radius:20px;
+	background-color:#42aaf4;
+}
+
+#top{
+	text-align:center;
+
+}
 
