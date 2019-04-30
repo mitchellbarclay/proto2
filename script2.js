@@ -42,14 +42,14 @@ function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
 
-   xMax = 969;
-   xMin = 220;
+   xMax = 725;
+   xMin = -20;
 
    yMax = 174.778;
    yMin = 174.774;
 
-   xMax2 = 966;
-   xMin2 = 220;
+   xMax2 = 725;
+   xMin2 = -15;
 
    yMax2 = -41.297
    yMin2 = -41.294
