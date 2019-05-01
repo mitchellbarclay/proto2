@@ -28,7 +28,7 @@ function gyro(){
 } 
 
 else if (orientation === "landscape-secondary") {
-  y.innerHTML ="Landscape";
+  y.innerHTML ="Landscape - upside down";
 } 
 
 
@@ -38,7 +38,7 @@ else if (orientation === "portrait-secondary" || orientation === "portrait-prima
 
 
 else if (orientation === undefined) {
-  console.log("The orientation API isn't supported in this browser :("); 
+  y.innerHTML = "The orientation API isn't supported in this browser"; 
 }
 
 }
