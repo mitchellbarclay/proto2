@@ -20,7 +20,7 @@ function showPosition(position) {
 }
 
 function gyro(){
-	var orientation = screen.orientation.type;
+	var orientation = screen.msOrientation || screen.mozOrientation || (screen.orientation || {}).type;
 
 	if (orientation === "landscape-primary") {
   y.innerHTML = "Device-orientation: Landscape";
@@ -41,7 +41,7 @@ else if (orientation === "portrait-secondary") {
 } 
 
 
-else if (orientation !== "landscape-primary" || "landscape-secondary" || "portrait-secondary" || "portrait-primary") {
+else if (orientation === undefined) {
   y.innerHTML = "The orientation API isn't supported in this browser"; 
 }
 
