@@ -23,17 +23,21 @@ function gyro(){
 	var orientation = screen.orientation.type;
 
 	if (orientation === "landscape-primary") {
-  y.innerHTML = "Landscape";
+  y.innerHTML = "Device-orientation: Landscape";
 
 } 
 
 else if (orientation === "landscape-secondary") {
-  y.innerHTML ="Landscape - upside down";
+  y.innerHTML ="Device-orientation: Landscape - upside down";
 } 
 
 
-else if (orientation === "portrait-secondary" || orientation === "portrait-primary") {
-  y.innerHTML = ("Portrait");
+else if (orientation === "portrait-primary") {
+  y.innerHTML = ("Device-orientation: Portrait");
+} 
+
+else if (orientation === "portrait-secondary") {
+  y.innerHTML = ("Device-orientation: Portrait - upside down");
 } 
 
 

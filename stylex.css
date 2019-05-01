@@ -1,0 +1,22 @@
+button{
+	width:300px;
+	height:300px;
+	border-radius:300px;
+	background:red;
+	border-style:solid;
+	border-color:darkred;
+	border-width:20px;
+	font-size:50px;
+	color:white;
+	font-family:courier;
+}
+
+
+body{
+	text-align:center;
+}
+
+p {
+	font-size:20px;
+	font-family:courier;
+}
