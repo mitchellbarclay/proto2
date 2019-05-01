@@ -41,7 +41,7 @@ else if (orientation === "portrait-secondary") {
 } 
 
 
-else if (orientation === undefined) {
+else if (orientation !== "landscape-primary" || "landscape-secondary" || "portrait-secondary" || "portrait-primary") {
   y.innerHTML = "The orientation API isn't supported in this browser"; 
 }
 
